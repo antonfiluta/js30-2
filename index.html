@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Words</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>ImagesAI</h1>
+        <form>
+            <div class="input-container">
+                <input
+                  class="input"
+                  name="text"
+                  type="text"
+                  placeholder="Search the internet..."
+                  id="themeInput"
+                />
+                <img src="delete.png" alt="delete" id="delete" onclick="input.value = ''">
+              </div>
+              <input type="submit" onclick="setImages(theme, event)">
+        </form>
+    </header>
+    <main></main>
+    <footer>
+        <span>2024-frontend</span>
+        <a href="https://rs.school/courses/javascript-preschool-ru">
+            <img src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/5ca1e18f0b9a90de2bcbb01971aacb09a4e1b5cb/react/assets/rss-logo.svg" alt="logo">
+        </a>
+        <a href="https://github.com/antonfiluta">@antonfiluta</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
